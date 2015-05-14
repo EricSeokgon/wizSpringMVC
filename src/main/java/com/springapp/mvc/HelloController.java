@@ -87,4 +87,22 @@ public class HelloController {
         model.addAttribute("studentId", studentId);
         return "member/studentView";
     }
+
+    @RequestMapping("/index")
+    public String goIndex() {
+        return "index";
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/student")
+    public String goStudent(HttpServletRequest httpServletRequest, Model model) {
+
+        System.out.println("RequestMethod.GET");
+
+        String id = httpServletRequest.getParameter("id");
+        System.out.println("id : " + id);
+        model.addAttribute("studentId", id);
+
+        return "student/studentId";
+    }
+
 }
