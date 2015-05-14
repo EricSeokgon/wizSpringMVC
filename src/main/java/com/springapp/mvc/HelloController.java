@@ -4,12 +4,14 @@ import com.springapp.mvc.member.Member;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.websocket.server.PathParam;
 
 
 @Controller
@@ -78,5 +80,11 @@ public class HelloController {
     public String joinData(Member member) {
 
         return "member/join";
+    }
+
+    @RequestMapping("/member/{studentId}")
+    public String getStudent(@PathVariable String studentId, Model model) {
+        model.addAttribute("studentId", studentId);
+        return "member/studentView";
     }
 }
