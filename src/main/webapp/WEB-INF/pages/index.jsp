@@ -11,10 +11,10 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title></title>
+    <title>index</title>
 </head>
 <body>
-<form action="student" method="get">
+<form action="student" method="post">
     stduent id : <input type="text" name="id"> <br>
     <input type="submit" value="전송">
 </form>

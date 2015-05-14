@@ -105,4 +105,22 @@ public class HelloController {
         return "student/studentId";
     }
 
+    @RequestMapping(method = RequestMethod.POST, value = "/student")
+    public ModelAndView goStudent(HttpServletRequest httpServletRequest) {
+
+        System.out.println("RequestMethod.POST");
+
+        String id = httpServletRequest.getParameter("id");
+        System.out.println("id : " + id);
+
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("student/studentId");
+        mv.addObject("studentId", id);
+
+        //model.addAttribute("studentId", id);
+
+        //return "student/studentId";
+        return mv;
+    }
+
 }
