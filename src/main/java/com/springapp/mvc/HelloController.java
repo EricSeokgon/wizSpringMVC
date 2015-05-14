@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.StringTokenizer;
+
 @Controller
 @RequestMapping("/")
 public class HelloController {
@@ -35,5 +38,14 @@ public class HelloController {
         mv.addObject("id", "abcde");
         mv.setViewName("board/reply");
         return mv;
+    }
+
+    @RequestMapping("/board/confirmId")
+    public String confirmld(HttpServletRequest httpServletRequest, Model model) {
+        String id = httpServletRequest.getParameter("id");
+        String pw = httpServletRequest.getParameter("pw");
+        model.addAttribute("id", id);
+        model.addAttribute("pw", pw);
+        return "board/confirmId";
     }
 }
