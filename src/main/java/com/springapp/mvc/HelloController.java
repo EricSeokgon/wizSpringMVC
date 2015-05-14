@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -47,5 +48,13 @@ public class HelloController {
         model.addAttribute("id", id);
         model.addAttribute("pw", pw);
         return "board/confirmId";
+    }
+
+    @RequestMapping("board/checkId")
+    public String checkId(@RequestParam("id") String id, @RequestParam("pw") int pw, Model model) {
+        model.addAttribute("identify", id);
+        model.addAttribute("password", pw);
+        return "board/checkId";
+
     }
 }
