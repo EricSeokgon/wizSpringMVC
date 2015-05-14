@@ -1,5 +1,6 @@
 package com.springapp.mvc;
 
+import com.springapp.mvc.member.Member;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -9,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.StringTokenizer;
+
 
 @Controller
 @RequestMapping("/")
 public class HelloController {
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Hello world!");
+        model.addAttribute("message", "Hello world! 안녕하세요");
         return "hello";
     }
 
@@ -56,5 +57,26 @@ public class HelloController {
         model.addAttribute("password", pw);
         return "board/checkId";
 
+    }
+
+    //	@RequestMapping("/member/join")
+//	public String joinData(@RequestParam("name") String name, @RequestParam("id") String id,
+//			@RequestParam("pw") String pw, @RequestParam("email") String email, Model model) {
+//
+//		Member member = new Member();
+//		member.setName(name);
+//		member.setId(id);
+//		member.setPw(pw);
+//		member.setEmail(email);
+//
+//		model.addAttribute("memberInfo", member);
+//
+//		return "member/join";
+//	}
+
+    @RequestMapping("/member/join")
+    public String joinData(Member member) {
+
+        return "member/join";
     }
 }
