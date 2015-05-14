@@ -28,10 +28,10 @@ public class HelloController {
         return "board/content";
     }
 
-   @RequestMapping("/board/reply")
+    @RequestMapping("/board/reply")
     public ModelAndView reply() {
 
-       ModelAndView mv = new ModelAndView();
+        ModelAndView mv = new ModelAndView();
         mv.addObject("id", "abcde");
         mv.setViewName("board/reply");
         return mv;
