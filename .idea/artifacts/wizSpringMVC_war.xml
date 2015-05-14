@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="wizSpringMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="wizSpringMVC.war">
+      <element id="artifact" artifact-name="wizSpringMVC:war exploded" />
+    </root>
+  </artifact>
+</component>
