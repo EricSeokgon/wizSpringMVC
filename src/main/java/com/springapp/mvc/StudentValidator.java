@@ -8,7 +8,7 @@ import org.springframework.validation.Validator;
  * Project: wizSpringMVC
  * FileName: StudentValidator
  * Date: 2015-05-15
- * Time: ¿ÀÀü 9:45
+ * Time: ì˜¤ì „ 9:45
  * Author: Hadeslee
  * Note:
  * To change this template use File | Settings | File Templates.
@@ -17,7 +17,7 @@ public class StudentValidator implements Validator {
 
     @Override
     public boolean supports(Class<?> arg0) {
-        return Student.class.isAssignableFrom(arg0);  // °ËÁõÇÒ °´Ã¼ÀÇ Å¬·¡½º Å¸ÀÔ Á¤º¸
+        return Student.class.isAssignableFrom(arg0);  // ê²€ì¦í•  ê°ì²´ì˜ í´ë˜ìŠ¤ íƒ€ì… ì •ë³´
     }
 
     @Override

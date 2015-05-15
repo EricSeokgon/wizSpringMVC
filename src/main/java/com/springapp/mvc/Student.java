@@ -4,7 +4,7 @@ package com.springapp.mvc;
  * Project: wizSpringMVC
  * FileName: Student
  * Date: 2015-05-15
- * Time: ¿ÀÀü 9:44
+ * Time: ì˜¤ì „ 9:44
  * Author: Hadeslee
  * Note:
  * To change this template use File | Settings | File Templates.
