@@ -39,14 +39,14 @@ public class BController {
 		command = new BListCommand();
 		command.execute(model);
 		
-		return "list";
+		return "board/list";
 	}
 	
 	@RequestMapping("/write_view")
 	public String write_view(Model model) {
 		System.out.println("write_view()");
 		
-		return "write_view";
+		return "board/write_view";
 	}
 	
 	@RequestMapping("/write")
@@ -56,8 +56,7 @@ public class BController {
 		model.addAttribute("request", request);
 		command = new BWriteCommand();
 		command.execute(model);
-		
-		
+
 		return "redirect:list";
 	}
 	
@@ -69,7 +68,7 @@ public class BController {
 		command = new BContentCommand();
 		command.execute(model);
 		
-		return "content_view";
+		return "board/content_view";
 	}
 	
 	@RequestMapping(method=RequestMethod.POST, value = "/modify")
@@ -91,7 +90,7 @@ public class BController {
 		command = new BReplyViewCommand();
 		command.execute(model);
 		
-		return "reply_view";
+		return "board/reply_view";
 	}
 	
 	@RequestMapping("/reply")
