@@ -1,7 +1,9 @@
 package com.springapp.mvc;
 
 import org.springframework.validation.Errors;
+import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
+
 /**
  * Project: wizSpringMVC
  * FileName: StudentValidator
@@ -21,19 +23,23 @@ public class StudentValidator implements Validator {
     @Override
     public void validate(Object obj, Errors errors) {
         System.out.println("validate()");
-        Student student = (Student)obj;
+        Student student = (Student) obj;
 
-        String studentName = student.getName();
+        /*String studentName = student.getName();
         if(studentName == null || studentName.trim().isEmpty()) {
             System.out.println("studentName is null or empty");
             errors.rejectValue("name", "trouble");
-        }
+        }*/
 
-        int studentId = student.getId();
-        if(studentId == 0) {
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "trouble");
+
+        /*int studentId = student.getId();
+        if (studentId == 0) {
             System.out.println("studentId is 0");
             errors.rejectValue("id", "trouble");
-        }
+        }*/
+
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "id", "trouble");
     }
 
 }
