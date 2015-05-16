@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b5fe54-d352-4bbc-abd4-74f0924fb31d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java" />
-    </list>
+    <list default="true" id="02b5fe54-d352-4bbc-abd4-74f0924fb31d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -949,7 +947,7 @@
       <workItem from="1431648350034" duration="13049000" />
       <workItem from="1431701609794" duration="539000" />
       <workItem from="1431706791949" duration="1862000" />
-      <workItem from="1431806084057" duration="731000" />
+      <workItem from="1431806084057" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1431578262270</created>
@@ -1125,11 +1123,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431806765734</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="JdbcTemplate template add">
+      <created>1431806822673</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1431806822673</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27032000" />
+    <option name="totallyTimeSpent" value="27040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="755" y="77" width="1152" height="916" extended-state="0" />
