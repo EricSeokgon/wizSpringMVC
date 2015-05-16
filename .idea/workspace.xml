@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02b5fe54-d352-4bbc-abd4-74f0924fb31d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="TicketDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63955116">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.21318373">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
@@ -950,7 +949,7 @@
       <workItem from="1431648350034" duration="13049000" />
       <workItem from="1431701609794" duration="539000" />
       <workItem from="1431706791949" duration="1862000" />
-      <workItem from="1431806084057" duration="651000" />
+      <workItem from="1431806084057" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1431578262270</created>
@@ -1120,11 +1119,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431806372688</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JdbcTemplate template add">
+      <created>1431806765734</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1431806765734</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26952000" />
+    <option name="totallyTimeSpent" value="27032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="755" y="77" width="1152" height="916" extended-state="0" />
@@ -1199,7 +1204,8 @@
     <MESSAGE value="intellij env add" />
     <MESSAGE value="home Controller modify" />
     <MESSAGE value="TicketDao init" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketDao init" />
+    <MESSAGE value="JdbcTemplate template add" />
+    <option name="LAST_COMMIT_MESSAGE" value="JdbcTemplate template add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1550,14 +1556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hadeslee/spring/pjt_board/controller/BController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1573,6 +1571,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,8 +1605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63955116">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.21318373">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="e#376#377#0" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />

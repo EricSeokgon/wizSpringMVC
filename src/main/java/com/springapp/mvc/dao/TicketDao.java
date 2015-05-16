@@ -6,7 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * Project: wizSpringMVC
  * FileName: TicketDao
  * Date: 2015-05-17
- * Time: ¿ÀÀü 4:59
+ * Time: ì˜¤ì „ 4:59
  * Author: hadeslee
  * Note:
  * To change this template use File | Settings | File Templates.

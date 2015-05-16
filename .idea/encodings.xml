@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Student.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/StudentController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/StudentValidator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/TicketDao.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/member/Major.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/member/Member.java" charset="UTF-8" />
   </component>
