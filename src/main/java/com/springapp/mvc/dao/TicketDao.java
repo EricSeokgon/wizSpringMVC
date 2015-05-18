@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 
-import com.javalec.spring_pjt_ex.dto.TicketDto;
+import com.springapp.mvc.dto.TicketDto;
 
 /**
  * Project: wizSpringMVC
