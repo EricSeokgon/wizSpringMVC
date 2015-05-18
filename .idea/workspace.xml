@@ -69,8 +69,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/security/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77938145">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.44329897">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring_security_pjt/HController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/security/login.jsp" />
       </list>
     </option>
   </component>
@@ -1101,7 +1102,7 @@
       <workItem from="1431577706414" duration="10851000" />
       <workItem from="1431648350034" duration="13049000" />
       <workItem from="1431907298463" duration="2000" />
-      <workItem from="1431907425654" duration="13975000" />
+      <workItem from="1431907425654" duration="14366000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1431578262270</created>
@@ -1373,11 +1374,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431930981058</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="security logout add">
+      <created>1431931498972</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1431931498972</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37877000" />
+    <option name="totallyTimeSpent" value="38268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="916" extended-state="6" />
@@ -1429,7 +1436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="get방식 뷰화면 추가" />
     <MESSAGE value="get,post 방식 두가지 가능 하도록 수정" />
     <MESSAGE value="@ModelAttribute form 방식 처리" />
     <MESSAGE value="리다이렉트(redirect)키워드 처리" />
@@ -1454,7 +1460,8 @@
     <MESSAGE value="security login,welcome add" />
     <MESSAGE value="security loginform add" />
     <MESSAGE value="security loginform fail page add" />
-    <option name="LAST_COMMIT_MESSAGE" value="security loginform fail page add" />
+    <MESSAGE value="security logout add" />
+    <option name="LAST_COMMIT_MESSAGE" value="security logout add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1836,14 +1843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58984375">
-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8671875">
@@ -1898,10 +1897,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23828125">
+          <caret line="157" column="44" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/security/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77938145">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.44329897">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
