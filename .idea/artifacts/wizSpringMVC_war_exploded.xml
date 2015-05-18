@@ -28,8 +28,10 @@
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
           <element id="library" level="project" name="Maven: org.apache.tiles:tiles-template:2.2.2" />
           <element id="library" level="project" name="Maven: org.apache.tiles:tiles-api:2.2.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" />
