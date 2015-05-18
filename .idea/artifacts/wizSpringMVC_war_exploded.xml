@@ -9,7 +9,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.1.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.1.RELEASE" />
@@ -22,10 +21,21 @@
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-jsp:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-servlet:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-core:2.2.2" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.0" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-template:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-api:2.2.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.4.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
