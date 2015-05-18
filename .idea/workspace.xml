@@ -69,8 +69,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/security/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44329897">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.371134">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1102,7 +1102,7 @@
       <workItem from="1431577706414" duration="10851000" />
       <workItem from="1431648350034" duration="13049000" />
       <workItem from="1431907298463" duration="2000" />
-      <workItem from="1431907425654" duration="14366000" />
+      <workItem from="1431907425654" duration="14681000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1431578262270</created>
@@ -1380,11 +1380,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431931498972</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="security login taglibs add">
+      <created>1431931900145</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1431931900145</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38268000" />
+    <option name="totallyTimeSpent" value="38583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="916" extended-state="6" />
@@ -1436,7 +1442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="get,post 방식 두가지 가능 하도록 수정" />
     <MESSAGE value="@ModelAttribute form 방식 처리" />
     <MESSAGE value="리다이렉트(redirect)키워드 처리" />
     <MESSAGE value="gitignore 수정" />
@@ -1461,7 +1466,8 @@
     <MESSAGE value="security loginform add" />
     <MESSAGE value="security loginform fail page add" />
     <MESSAGE value="security logout add" />
-    <option name="LAST_COMMIT_MESSAGE" value="security logout add" />
+    <MESSAGE value="security login taglibs add" />
+    <option name="LAST_COMMIT_MESSAGE" value="security login taglibs add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1907,8 +1913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/security/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44329897">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.371134">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
