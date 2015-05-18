@@ -18,6 +18,7 @@
     <context:component-scan base-package="com.spring_security_pjt"/>
     <context:component-scan base-package="com.spring_mybatis"/>
 
+
     <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <beans:property name="prefix" value="/WEB-INF/pages/"/>
         <beans:property name="suffix" value=".jsp"/>

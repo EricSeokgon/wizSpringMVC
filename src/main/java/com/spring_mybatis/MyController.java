@@ -34,7 +34,7 @@ public class MyController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/mybits", method = RequestMethod.GET)
+	@RequestMapping(value = "/mybitas", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -68,7 +68,7 @@ public class MyController {
 		return "redirect:list";
 	}
 	
-	@RequestMapping("/myview")
+	@RequestMapping("/view")
 	public String view() {
 		
 		return "/view";

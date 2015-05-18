@@ -20,7 +20,7 @@
 		<td>${dto.mId}</td>
 		<td>${dto.mWriter}</td>
 		<td>${dto.mContent}</td>
-		<td><a href="mydelete?mId=${dto.mId}">X</a></td>
+		<td><a href="delete?mId=${dto.mId}">X</a></td>
 	<tr>
 	</c:forEach>
 </table>
