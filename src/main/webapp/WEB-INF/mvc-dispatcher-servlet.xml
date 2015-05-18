@@ -38,6 +38,7 @@
 
     <beans:bean name="dao" class="com.springapp.mvc.dao.TicketDao" >
         <beans:property name="template" ref="template" />
+        <beans:property name="transactionManager" ref="transactionManager" />
     </beans:bean>
 
 </beans:beans>
