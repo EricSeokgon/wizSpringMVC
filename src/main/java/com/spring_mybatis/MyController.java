@@ -24,11 +24,11 @@ public class MyController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(MyController.class);
 	
-	ContentDao dao;
+	ContentDao dao1;
 	
 
-	public void setDao(ContentDao dao) {
-		this.dao = dao;
+	public void setDao(ContentDao dao1) {
+		this.dao1 = dao1;
 	}
 	
 	/**
@@ -50,7 +50,7 @@ public class MyController {
 	
 	@RequestMapping("/mylist")
 	public String list(Model model) {
-		ArrayList<ContentDto> dtos = dao.listDao();
+		ArrayList<ContentDto> dtos = dao1.listDao();
 		model.addAttribute("list", dtos);
 		
 		return "/list";
@@ -64,7 +64,7 @@ public class MyController {
 	
 	@RequestMapping("/mywrite")
 	public String write(HttpServletRequest request, Model model) {
-		dao.writeDao(request.getParameter("mWriter"), request.getParameter("mContent"));
+		dao1.writeDao(request.getParameter("mWriter"), request.getParameter("mContent"));
 		return "redirect:list";
 	}
 	
@@ -76,7 +76,7 @@ public class MyController {
 	
 	@RequestMapping("/mydelete")
 	public String delete(HttpServletRequest request, Model model) {
-		dao.deleteDao(request.getParameter("mId"));
+		dao1.deleteDao(request.getParameter("mId"));
 		return "redirect:list";
 	}
 	
