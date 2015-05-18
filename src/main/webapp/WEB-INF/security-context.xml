@@ -8,6 +8,7 @@
 					http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 
 	<security:http auto-config="true">
+		<security:form-login login-page="/loginForm.html"/>
 		<security:intercept-url pattern="/login.html*" access="ROLE_USER"/>
 		<security:intercept-url pattern="/welcome.html*" access="ROLE_ADMIN"/>
 	</security:http>
