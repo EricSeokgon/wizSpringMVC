@@ -1,9 +1,7 @@
 package com.springapp.mvc;
 
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
-
+import com.springapp.mvc.command.ITicketCommand;
+import com.springapp.mvc.dto.TicketDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +10,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.springapp.mvc.dao.TicketDao;
-import com.springapp.mvc.dto.TicketDto;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 /**
  * Handles requests for the application home page.
